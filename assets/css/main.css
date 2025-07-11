@@ -3829,3 +3829,68 @@ body {
   opacity: 1;
   transform: translateX(0);
 }
+
+/*Contact Form*/
+.contact-form-box {
+  border: 2px solid #000000; /* Jet Black */
+  background-color: #0A1C2E; /* Deep Navy */
+  padding: 40px;
+  border-radius: 12px;
+  margin: 40px auto;
+  max-width: 500px;
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.12); /* Luxury Gold glow */
+  color: #F5F5F5; /* Soft White */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-form-box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #D4AF37; /* Luxury Gold */
+}
+
+.contact-form-box label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #B0AFAF; /* Warm Gray */
+}
+
+.contact-form-box input,
+.contact-form-box textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1A1A1A;
+  color: #F5F5F5;
+  font-size: 16px;
+}
+
+.contact-form-box input::placeholder,
+.contact-form-box textarea::placeholder {
+  color: #777777;
+}
+
+.contact-form-box input:focus,
+.contact-form-box textarea:focus {
+  outline: 2px solid #D4AF37;
+}
+
+.contact-form-box button {
+  width: 100%;
+  padding: 14px;
+  background-color: #D4AF37;
+  color: #000000;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form-box button:hover {
+  background-color: #b9982f;
+}
